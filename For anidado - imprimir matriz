@@ -1,0 +1,14 @@
+public class BucleAnidado {
+    
+   
+    private static final int SIZE = 10;  //definimos en una constante el tamaño de la matriz
+    public static void main(String[] args) {
+        
+        for(int i = 0; i < SIZE; i++){ //bucle for anidado para imprimir la matriz
+            for(int j = 0; j< SIZE; j++){
+                System.out.print(i + "" + j + " ");
+            }
+            System.out.println();
+        }
+    }
+}
